@@ -16,3 +16,20 @@ type Company {
     controlledBy: [Person!]!
     owns:[Property!]!
 }
+
+type Person {
+    id: ID 
+    birthMonth: String 
+    birthYear: String 
+    nationality: String 
+    name: String 
+    countryOfResidence: String 
+}
+
+type Property {
+    id: ID 
+    address: String 
+    country: String 
+    district: String 
+    titleNumber: String 
+}
